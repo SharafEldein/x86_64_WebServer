@@ -3,9 +3,9 @@
 
 .section .text
 _start:
-
+	
 	mov rdi, 0
-	mov rax, 60 #sys_Exit
+	mov rax, 0x3C #sys_Exit
 	syscall
 
 .section .data
